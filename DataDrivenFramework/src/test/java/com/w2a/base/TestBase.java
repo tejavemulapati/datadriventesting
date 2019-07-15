@@ -23,7 +23,7 @@ public class TestBase {
 	
 	@AfterMethod
 	public void tearDown() {
-		
+		System.out.println("This is test method updated");
 	}
 
 }
